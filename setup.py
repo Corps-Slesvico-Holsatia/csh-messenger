@@ -1,5 +1,5 @@
 #! /usr/bin/env python3
-"""Install scipt."""
+"""Install script."""
 
 from setuptools import setup
 
