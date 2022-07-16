@@ -41,7 +41,7 @@ def select_messages() -> ModelSelect:
 def select_slice(
         after: Optional[datetime],
         before: Optional[datetime]
-    ) -> ModelSelect:
+) -> ModelSelect:
     """Selects a message slice."""
 
     condition = True
